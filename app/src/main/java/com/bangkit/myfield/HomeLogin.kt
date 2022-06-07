@@ -1,4 +1,4 @@
-package com.bangkit.myfield.ui.home
+package com.bangkit.myfield
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
