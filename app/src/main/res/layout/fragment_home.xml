@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/bg_home"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="300dp"
         android:background="@color/bg_home"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -18,14 +18,13 @@
 
     <ImageView
         android:id="@+id/hello_home"
-        android:layout_width="254dp"
-        android:layout_height="202dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bg_home"
+        android:layout_width="198dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toStartOf="@+id/bg_home"
         app:layout_constraintTop_toTopOf="@+id/bg_home"
-        app:layout_constraintVertical_bias="0.702"
         app:srcCompat="@drawable/corner" />
 
     <androidx.appcompat.widget.SearchView
@@ -38,7 +37,7 @@
         android:layout_marginEnd="24dp"
         android:background="@drawable/bg_search_transparant"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.978"
         app:layout_constraintStart_toEndOf="@+id/bg_home"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -81,154 +80,279 @@
         app:layout_constraintTop_toTopOf="@+id/icon_user"
         tools:ignore="MissingConstraints" />
 
-    <GridLayout
-        android:id="@+id/title_card"
-        android:layout_width="304dp"
-        android:layout_height="378dp"
-        android:layout_margin="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="24dp"
-        android:columnCount="2"
-        android:rowCount="2"
+    <!--    <GridLayout-->
+    <!--        android:id="@+id/title_card"-->
+    <!--        android:layout_width="304dp"-->
+    <!--        android:layout_height="378dp"-->
+    <!--        android:layout_margin="20dp"-->
+    <!--        android:layout_marginStart="20dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:columnCount="2"-->
+    <!--        android:rowCount="2"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/searchView"-->
+    <!--        tools:ignore="MissingConstraints">-->
+
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="97dp"-->
+    <!--            android:layout_height="59dp"-->
+    <!--            android:layout_row="0"-->
+    <!--            android:layout_rowWeight="1"-->
+    <!--            android:layout_column="0"-->
+    <!--            android:layout_columnWeight="1"-->
+    <!--            android:layout_gravity="fill"-->
+    <!--            app:cardCornerRadius="8dp"-->
+    <!--            app:cardElevation="8dp"-->
+    <!--            app:cardUseCompatPadding="true">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="103dp"-->
+    <!--                android:layout_height="117dp"-->
+    <!--                android:layout_gravity="center_vertical|center_horizontal"-->
+    <!--                android:gravity="center"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="49dp"-->
+    <!--                    android:layout_height="72dp"-->
+    <!--                    android:src="@drawable/player_football" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="Futsal"-->
+    <!--                    android:textAlignment="center"-->
+    <!--                    android:textStyle="bold" />-->
+    <!--            </LinearLayout>-->
+    <!--        </androidx.cardview.widget.CardView>-->
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="4dp"-->
+    <!--            android:layout_height="18dp"-->
+    <!--            android:layout_row="0"-->
+    <!--            android:layout_rowWeight="1"-->
+    <!--            android:layout_column="1"-->
+    <!--            android:layout_columnWeight="1"-->
+    <!--            android:layout_gravity="fill"-->
+    <!--            app:cardCornerRadius="8dp"-->
+    <!--            app:cardElevation="8dp"-->
+    <!--            app:cardUseCompatPadding="true">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center_vertical|center_horizontal"-->
+    <!--                android:gravity="center"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="49dp"-->
+    <!--                    android:layout_height="72dp"-->
+    <!--                    android:src="@drawable/player_football" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="LANGUAGE"-->
+    <!--                    android:textAlignment="center"-->
+    <!--                    android:textStyle="bold" />-->
+    <!--            </LinearLayout>-->
+    <!--        </androidx.cardview.widget.CardView>-->
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="97dp"-->
+    <!--            android:layout_height="59dp"-->
+    <!--            android:layout_row="1"-->
+    <!--            android:layout_rowWeight="1"-->
+    <!--            android:layout_column="0"-->
+    <!--            android:layout_columnWeight="1"-->
+    <!--            android:layout_gravity="fill"-->
+    <!--            app:cardCornerRadius="8dp"-->
+    <!--            app:cardElevation="8dp"-->
+    <!--            app:cardUseCompatPadding="true">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center_vertical|center_horizontal"-->
+    <!--                android:gravity="center"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="49dp"-->
+    <!--                    android:layout_height="72dp"-->
+    <!--                    android:src="@drawable/player_football" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="CHAT"-->
+    <!--                    android:textAlignment="center"-->
+    <!--                    android:textStyle="bold" />-->
+    <!--            </LinearLayout>-->
+    <!--        </androidx.cardview.widget.CardView>-->
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="97dp"-->
+    <!--            android:layout_height="59dp"-->
+    <!--            android:layout_row="1"-->
+    <!--            android:layout_rowWeight="1"-->
+    <!--            android:layout_column="1"-->
+    <!--            android:layout_columnWeight="1"-->
+    <!--            android:layout_gravity="fill"-->
+    <!--            app:cardCornerRadius="8dp"-->
+    <!--            app:cardElevation="8dp"-->
+    <!--            app:cardUseCompatPadding="true">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center_vertical|center_horizontal"-->
+    <!--                android:gravity="center"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="49dp"-->
+    <!--                    android:layout_height="72dp"-->
+    <!--                    android:src="@drawable/player_football" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="CALENDAR"-->
+    <!--                    android:textAlignment="center"-->
+    <!--                    android:textStyle="bold" />-->
+    <!--            </LinearLayout>-->
+    <!--        </androidx.cardview.widget.CardView>-->
+
+    <!--    </GridLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:layout_constraintTop_toBottomOf="@+id/bg_home"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_category" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="36dp"
+            android:text="Category"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:paddingRight="10dp"
+            android:text="See all"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/card_fusal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/backround_yellow_gradient"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        tools:ignore="MissingConstraints,NotSibling">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Field Futsal"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00000000"
+            android:padding="20dp"
+            android:text="See Detail"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="115dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="34dp"
+            android:src="@drawable/ball" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/card_badminton"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backround_yellow_gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_fusal"
+        tools:ignore="MissingConstraints,NotSibling">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Field Badminton"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00000000"
+            android:padding="20dp"
+            android:text="See Detail"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="115dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="34dp"
+            android:src="@drawable/badminton" />
+    </RelativeLayout>
+
+    <!--    <ScrollView-->
+<!--        android:id="@+id/scrollView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:layout_editor_absoluteX="24dp">-->
 
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="97dp"
-            android:layout_height="59dp"
-            android:layout_row="0"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:cardUseCompatPadding="true">
-
-            <LinearLayout
-                android:layout_width="103dp"
-                android:layout_height="117dp"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="49dp"
-                    android:layout_height="72dp"
-                    android:src="@drawable/player_football" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Futsal"
-                    android:textAlignment="center"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="4dp"
-            android:layout_height="18dp"
-            android:layout_row="0"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:cardUseCompatPadding="true">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="49dp"
-                    android:layout_height="72dp"
-                    android:src="@drawable/player_football" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="LANGUAGE"
-                    android:textAlignment="center"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="97dp"
-            android:layout_height="59dp"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:cardUseCompatPadding="true">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="49dp"
-                    android:layout_height="72dp"
-                    android:src="@drawable/player_football" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="CHAT"
-                    android:textAlignment="center"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="97dp"
-            android:layout_height="59dp"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:cardUseCompatPadding="true">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="49dp"
-                    android:layout_height="72dp"
-                    android:src="@drawable/player_football" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="CALENDAR"
-                    android:textAlignment="center"
-                    android:textStyle="bold" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-    </GridLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
