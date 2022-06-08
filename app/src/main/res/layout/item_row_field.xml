@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/move_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backround_yellow_gradient"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_field_futsal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
+            card_view:layout_constraintTop_toTopOf="@+id/img_item_photo"
+            tools:text="Futsal" />
+
+        <TextView
+            android:id="@+id/tv_nama_lapangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Gor"
+            android:textColor="@color/green"
+            android:textSize="25dp"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_field_futsal"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_field_futsal"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/img_location"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:src="@drawable/ic_location_green_24"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_nama_lapangan"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="71dp" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:text="Location"
+            android:textColor="@color/green"
+            card_view:layout_constraintBottom_toBottomOf="@+id/img_location"
+            card_view:layout_constraintStart_toEndOf="@+id/img_location"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_nama_lapangan" />
+
+        <TextView
+            android:id="@+id/rv_idr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IDR."
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            card_view:layout_constraintBottom_toBottomOf="@+id/img_item_photo"
+            card_view:layout_constraintStart_toStartOf="@+id/img_location" />
+
+        <TextView
+            android:id="@+id/rv_harga_lapangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="120.000"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            card_view:layout_constraintBottom_toBottomOf="@+id/rv_idr"
+            card_view:layout_constraintStart_toEndOf="@+id/rv_idr"
+            card_view:layout_constraintTop_toTopOf="@+id/rv_idr" />
+
+        <ImageView
+            android:id="@+id/favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star_border_white_24"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="355dp"
+            tools:layout_editor_absoluteY="1dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
