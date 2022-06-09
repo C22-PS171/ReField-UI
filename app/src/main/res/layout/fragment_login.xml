@@ -10,75 +10,65 @@
         android:id="@+id/text_notifications"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textSize="20sp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/background_login"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/background_login"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:src="@drawable/yellow_background"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        tools:ignore="MissingConstraints" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="378dp"
-        android:layout_height="336dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:padding="20dp"
-        app:cardBackgroundColor="@color/bg_home"
-        app:cardCornerRadius="20dp"
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="422dp"
+        android:layout_height="91dp"
+        android:src="@drawable/ic_wave_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/background_login" />
 
-        <ImageView
-            android:layout_width="270dp"
-            android:layout_height="245dp"
-            android:layout_gravity="center"
-            android:src="@drawable/soccer_game" />
-    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="259dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/teams_work"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/img_discover"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:text="Discover your \n Dream Field Here"
+        android:layout_marginBottom="72dp"
+        android:text="Get Account Your \n Journey"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="35dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView" />
-
-    <com.bangkit.myfield.component.LoginButton
-        android:layout_width="173dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="92dp"
-        android:text="login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.966"
-        app:layout_constraintStart_toEndOf="@+id/registerButton"
+        app:layout_constraintBottom_toBottomOf="@+id/background_login"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
         tools:ignore="MissingConstraints" />
 
-    <com.bangkit.myfield.component.RegisterButton
-        android:id="@+id/registerButton"
-        android:layout_width="165dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="92dp"
-        android:text="Register"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/button_home_login"
+        android:layout_width="126dp"
+        android:layout_height="128dp"
+        android:src="@drawable/next_yellow"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

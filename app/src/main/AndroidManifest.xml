@@ -33,7 +33,7 @@
             android:name=".detail.ListFutsal"
             android:exported="false" />
         <activity
-            android:name=".HomeLogin"
+            android:name=".autentifikasi.HomeLogin"
             android:exported="false" />
     </application>
 
