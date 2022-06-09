@@ -1,6 +1,7 @@
 package com.bangkit.myfield
 
 import android.os.Bundle
+import android.widget.TextView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -10,6 +11,7 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.bangkit.myfield.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayout
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,5 +37,19 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         supportActionBar?.hide()
+    }
+
+    ///create function for show good morning, evening, etc base on time
+    fun greetingTimeMassage() : String{
+        val call = Calendar.getInstance()
+        val timeOfDay = call.get(Calendar.HOUR_OF_DAY)
+
+        return when(timeOfDay){
+            in 0..11 -> "Good Morning"
+            in 12..15 -> "Good Afternoon"
+            in 16..20 -> "Good Evening"
+            in 21..23 -> "Good Night"
+            else -> "Hola"
+        }
     }
 }

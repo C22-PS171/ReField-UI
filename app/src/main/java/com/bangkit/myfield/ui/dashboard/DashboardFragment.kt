@@ -1,9 +1,11 @@
 package com.bangkit.myfield.ui.dashboard
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -46,6 +48,7 @@ class DashboardFragment : Fragment() {
             textView.text = it
         }
 
+        //for view pager
         val tabLayout: TabLayout = binding.tabLayout
         val viewPager: ViewPager2 = binding.viewPager2
 
@@ -54,6 +57,7 @@ class DashboardFragment : Fragment() {
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             tab.text = resources.getString(TAB_TITLES[position])
         }.attach()
+
 
         return root
     }

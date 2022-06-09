@@ -9,11 +9,13 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.bangkit.myfield.R
 import com.bangkit.myfield.databinding.FragmentHomeBinding
 import com.bangkit.myfield.detail.ListBadminton
 import com.bangkit.myfield.detail.ListFutsal
+import java.util.*
 
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(), View.OnClickListener {
 
     private var _binding: FragmentHomeBinding? = null
 
@@ -32,15 +34,15 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
+        val greetings: TextView = binding.textHomeGreeting
         homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+            greetings.text = it
         }
 
         val cardFutsal: RelativeLayout = binding.cardFusal
         cardFutsal.setOnClickListener{
-            val move = Intent(activity, ListFutsal::class.java)
-            activity?.startActivity(move)
+            val moveFutsal = Intent(activity, ListFutsal::class.java)
+            activity?.startActivity(moveFutsal)
         }
 
         val cardBadminton: RelativeLayout = binding.cardBadminton
@@ -55,5 +57,17 @@ class HomeFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    override fun onClick(v: View) {
+        if (v.id == R.id.back_img) {
+            val mCategoryFragment = HomeFragment()
+            val mFragmentManager = parentFragmentManager
+            mFragmentManager.beginTransaction().apply {
+                replace(R.id.container_futsal, mCategoryFragment, HomeFragment::class.java.simpleName)
+                addToBackStack(null)
+                commit()
+            }
+        }
     }
 }
