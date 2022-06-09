@@ -5,25 +5,45 @@
       <map>
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/bg_button.xml" value="0.177" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/bg_button_disable.xml" value="0.1735" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/bg_card.xml" value="0.1905" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/bg_home.xml" value="0.177" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/bg_search_transparant.xml" value="0.1905" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1905" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_green.xml" value="0.1905" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_green_bottom.xml" value="0.2115" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_green_top.xml" value="0.2105" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_tab_layout.xml" value="0.1025" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/backround_yellow_gradient.xml" value="0.16" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/border_avatar.xml" value="0.1905" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/ic_category.xml" value="0.1905" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1905" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/ic_history_24.xml" value="0.117" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.177" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1905" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/ic_location_green_24.xml" value="0.1905" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/ic_login_black_24.xml" value="0.1905" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2115" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/ic_star_border_white_24.xml" value="0.1905" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/icarrow_circle_left_white_24.xml" value="0.2115" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/input_text.xml" value="0.1735" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/search.xml" value="0.1905" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/tab_indicator.xml" value="0.2115" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/yellow_background.xml" value="0.2105" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_history.xml" value="0.19655797101449277" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_home_login.xml" value="0.16394927536231885" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_list_badminton.xml" value="0.25" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_list_futsal.xml" value="0.19655797101449277" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_main.xml" value="0.21" />
-        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/fragment_dashboard.xml" value="0.17074275362318841" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_main2.xml" value="0.19655797101449277" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/fragment_history.xml" value="0.19010416666666666" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/fragment_home.xml" value="0.21" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/fragment_login.xml" value="0.17074275362318841" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/fragment_notifications.xml" value="0.17074275362318841" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/fragment_proses.xml" value="0.19655797101449277" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/item_card_home.xml" value="0.19655797101449277" />
-        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/item_row_field.xml" value="0.48201438848920863" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/item_row_field.xml" value="0.33" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
