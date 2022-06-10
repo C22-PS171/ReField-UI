@@ -5,12 +5,11 @@ import android.graphics.Canvas
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.AttributeSet
-import android.util.Patterns
 import android.view.MotionEvent
 import android.view.View
 import androidx.appcompat.widget.AppCompatEditText
 
-class EmailEdtText: AppCompatEditText, View.OnTouchListener {
+class PassEdtText: AppCompatEditText, View.OnTouchListener {
     constructor(context: Context) : super(context) {
         init()
     }
@@ -33,10 +32,10 @@ class EmailEdtText: AppCompatEditText, View.OnTouchListener {
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {
             }
             override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
-                error = if (Patterns.EMAIL_ADDRESS.matcher(s.toString()).matches()){
-                    null
+                error = if (s.length <= 8){
+                    "Password must be more or at least 8 characters"
                 }else{
-                    "Wrong Email Format"
+                    null
                 }
             }
             override fun afterTextChanged(s: Editable) {
