@@ -12,6 +12,7 @@
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_green.xml" value="0.1905" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_green_bottom.xml" value="0.2115" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_green_top.xml" value="0.2105" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_input_text_yellow.xml" value="0.2105" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_tab_layout.xml" value="0.1025" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/backround_yellow_gradient.xml" value="0.16" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/border_avatar.xml" value="0.1905" />
@@ -34,7 +35,7 @@
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/yellow_background.xml" value="0.2105" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_history.xml" value="0.19655797101449277" />
-        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_home_login.xml" value="0.16394927536231885" />
+        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_home_login.xml" value="0.16" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_list_badminton.xml" value="0.25" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_list_futsal.xml" value="0.22" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/activity_main.xml" value="0.21" />
