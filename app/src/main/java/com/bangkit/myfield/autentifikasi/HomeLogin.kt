@@ -11,6 +11,7 @@ import com.bangkit.myfield.ui.login.LoginFragment
 class HomeLogin : AppCompatActivity() {
     private lateinit var clearButton: ImageView
     private lateinit var moveRegister: TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_login)
@@ -34,5 +35,6 @@ class HomeLogin : AppCompatActivity() {
         }
 
         supportActionBar?.hide()
+
     }
 }

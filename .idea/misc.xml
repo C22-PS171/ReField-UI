@@ -8,7 +8,6 @@
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/bg_card.xml" value="0.1905" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/bg_home.xml" value="0.177" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/bg_search_transparant.xml" value="0.1905" />
-        <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/ic_close_black_24.xml" value="0.2115" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1905" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/backgroud_input_text_white.xml" value="0.2115" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/drawable/background_green.xml" value="0.1905" />
@@ -52,10 +51,12 @@
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/item_card_home.xml" value="0.19655797101449277" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/item_row_field.xml" value="0.33" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19322916666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
