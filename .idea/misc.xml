@@ -51,8 +51,10 @@
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/item_card_home.xml" value="0.19655797101449277" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/layout/item_row_field.xml" value="0.33" />
         <entry key="..\:/MY DATA/KULIAH/BANGKIT/Project Capstone/MyField/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/activity_home_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.1975189208984375" />
       </map>
     </option>
   </component>
